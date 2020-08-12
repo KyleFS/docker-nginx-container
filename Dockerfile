@@ -1,3 +1,3 @@
 FROM nginx:mainline
 
-COPY wordpress-fpm.conf /etc/nginx/conf.d/default.conf
+COPY custom.conf /etc/nginx/conf.d/default.conf
