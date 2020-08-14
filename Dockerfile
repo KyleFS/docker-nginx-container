@@ -1,3 +1,4 @@
 FROM nginx:mainline
 
-COPY custom.conf /etc/nginx/conf.d/default.conf
+COPY wordpress.conf /etc/nginx/conf.d/default.conf
+COPY pma.conf /etc/nginx/sites-available/pma
